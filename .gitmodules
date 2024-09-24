@@ -1,0 +1,3 @@
+[submodule "GloVe/glove"]
+	path = GloVe/glove
+	url = https://github.com/stanfordnlp/GloVe
