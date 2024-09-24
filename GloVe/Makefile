@@ -10,7 +10,7 @@ CC = gcc
 
 CFLAGS = -lm -pthread -O3 -march=native -funroll-loops -Wall -Wextra -Wpedantic
 BUILDDIR := build
-SRCDIR := src
+SRCDIR := glove/src
 OBJDIR := $(BUILDDIR)
 
 OBJ := $(OBJDIR)/vocab_count.o $(OBJDIR)/cooccur.o $(OBJDIR)/shuffle.o $(OBJDIR)/glove.o
